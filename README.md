@@ -4,12 +4,12 @@
 
 ### Governance, Risk & Compliance (GRC) Project
 
-Eramba • Risk Management • Compliance Analysis • GDPR • Incident Management
+Eramba • Risk Management • Compliance Analysis • UK GDPR • Incident Management
 
 ![Eramba](https://img.shields.io/badge/Eramba-GRC-blue)
-![NIST CSF](https://img.shields.io/badge/NIST-CSF%202.0-green)
-![GDPR](https://img.shields.io/badge/GDPR-Compliance-orange)
-![Risk Management](https://img.shields.io/badge/Risk-Management-red)
+![NIST](https://img.shields.io/badge/NIST-CSF%202.0-green)
+![GDPR](https://img.shields.io/badge/UK-GDPR-orange)
+![Risk](https://img.shields.io/badge/Risk-Management-red)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 </div>
@@ -18,44 +18,35 @@ Eramba • Risk Management • Compliance Analysis • GDPR • Incident Managem
 
 # Overview
 
-This project demonstrates the design and implementation of a centralized Governance, Risk, and Compliance (GRC) environment using the Eramba platform.
+This project demonstrates the implementation of a Governance, Risk, and Compliance (GRC) environment using Eramba.
 
-The project was developed for a healthcare organization (St Thomas' Hospital) to manage cybersecurity risks, compliance obligations, privacy requirements, internal controls, and incident management activities.
+The project was developed for a healthcare organization, St Thomas' Hospital, to manage cybersecurity risks, regulatory compliance requirements, privacy obligations, and incident management activities.
 
-The implementation follows industry best practices and aligns with NIST Cybersecurity Framework (CSF) 2.0 and UK GDPR requirements to improve organizational governance, risk visibility, regulatory compliance, and security resilience.
+The implementation aligns with NIST Cybersecurity Framework (CSF) 2.0 and UK GDPR requirements while providing centralized visibility of assets, risks, controls, compliance status, privacy records, and security incidents.
 
 ---
 
 # Organization Profile
 
-## Organization
-
-**St Thomas' Hospital**
-
-## Industry
-
-Healthcare / Hospital Sector
-
-## Business Objectives
-
-- Protect patient health records
-- Maintain regulatory compliance
-- Reduce cybersecurity risks
-- Improve governance processes
-- Strengthen incident response capabilities
-- Ensure data privacy and accountability
+| Item | Description |
+|--------|-------------|
+| Organization | St Thomas' Hospital |
+| Industry | Healthcare |
+| Frameworks | NIST CSF 2.0, UK GDPR |
+| Platform | Eramba 3.27.3 |
+| Focus Areas | Risk, Compliance, Privacy, Incident Management |
 
 ---
 
 # Technologies Used
 
-## GRC Platform
+## Governance, Risk & Compliance
 
-- Eramba 3.27.3
+- Eramba
 
 ## Compliance Frameworks
 
-- NIST Cybersecurity Framework (CSF) 2.0
+- NIST CSF 2.0
 - UK GDPR
 - ICO Data Protection Guidance
 
@@ -67,9 +58,9 @@ Healthcare / Hospital Sector
 
 ## Privacy Management
 
-- GDPR Data Asset Management
+- Data Assets
 - Processing Activities
-- Third-Party Management
+- Third Parties
 - Data Flow Mapping
 
 ## Incident Management
@@ -80,37 +71,37 @@ Healthcare / Hospital Sector
 
 ---
 
-# Project Architecture
-
-![Project Architecture](images/grc-architecture.png)
-
----
-
-# GRC Implementation Overview
+# GRC Architecture
 
 ```text
-Business Units
-      │
-      ▼
-Assets
-      │
-      ▼
-Risks
-      │
-      ▼
-Policies & Controls
-      │
-      ▼
-Compliance Requirements
-      │
-      ▼
-Privacy Management
-      │
-      ▼
-Incident Management
-      │
-      ▼
-Dashboard Reporting
+┌────────────────────────────────────┐
+│        St Thomas' Hospital         │
+└─────────────────┬──────────────────┘
+                  │
+                  ▼
+          Business Units
+                  │
+                  ▼
+               Assets
+                  │
+                  ▼
+                Risks
+                  │
+                  ▼
+      Policies & Internal Controls
+                  │
+                  ▼
+      Compliance Frameworks
+       (NIST CSF 2.0 / GDPR)
+                  │
+                  ▼
+         Privacy Management
+                  │
+                  ▼
+        Incident Management
+                  │
+                  ▼
+      Dashboard & Reporting
 ```
 
 ---
@@ -133,8 +124,6 @@ Three business units were created within Eramba:
 
 Five organizational assets were identified and classified.
 
-Examples:
-
 - Patient Health Records Database
 - Payroll Management System
 - CCTV Monitoring System
@@ -149,31 +138,23 @@ Examples:
 
 ## Risk Register
 
-Five asset-based cybersecurity risks were identified and assessed.
+Five cybersecurity risks were identified and linked to organizational assets.
 
-Examples:
+Examples include:
 
 - Unauthorized Patient Record Access
 - Firewall Misconfiguration
 - Payroll Fraud
-- Loss of CCTV Footage
+- CCTV Monitoring Failure
 - Ransomware Attack
 
 ![Risk Register](images/risk-register.png)
 
 ---
 
-## Risk Appetite Matrix
-
-Likelihood and impact values were configured to prioritize organizational risks.
-
-![Risk Matrix](images/risk-matrix.png)
-
----
-
 ## Risk Treatment Plans
 
-Treatment plans were created for high-priority risks.
+Risk treatment plans were created for high-priority risks to reduce their likelihood and impact.
 
 ![Risk Treatment Plan](images/risk-treatment-plan.png)
 
@@ -181,12 +162,12 @@ Treatment plans were created for high-priority risks.
 
 # Task 3 – Policy Management
 
-## Policies
+## Security Policies
 
-Four security policies were implemented:
+Four organizational policies were implemented:
 
-- Access Control Policy
 - Information Security Policy
+- Access Control Policy
 - Backup & Recovery Policy
 - Incident Response Policy
 
@@ -194,60 +175,35 @@ Four security policies were implemented:
 
 ---
 
-## Policy Reviews & Versions
-
-Policy version history and review cycles were documented.
-
-![Policy Versions](images/policy-versions.png)
-
----
-
 # Task 4 – Internal Controls
 
-## Internal Controls
+## Security Controls
 
-Implemented controls include:
+Controls were implemented to mitigate identified risks and improve compliance.
+
+Examples:
 
 - Role-Based Access Control
-- Firewall Rule Review
-- Daily Backup Verification
-- CCTV Monitoring Review
+- Firewall Reviews
+- Backup Verification
+- CCTV Monitoring Reviews
 
-![Controls](images/internal-controls.png)
-
----
-
-## Audit Records
-
-Control effectiveness was validated through audit activities.
-
-![Control Audits](images/control-audits.png)
-
----
-
-## Maintenance Records
-
-Control maintenance schedules were documented.
-
-![Maintenance Records](images/maintenance-records.png)
+![Internal Controls](images/internal-controls.png)
 
 ---
 
 # Task 5 – Compliance Analysis
 
-## NIST CSF 2.0 Mapping
+## Compliance Frameworks
 
-Compliance requirements were mapped against NIST CSF 2.0.
+The organization's controls and policies were mapped against regulatory and security requirements.
 
-![NIST Compliance](images/nist-compliance.png)
+Frameworks used:
 
----
+- NIST Cybersecurity Framework (CSF) 2.0
+- UK GDPR
 
-## UK GDPR Compliance
-
-Privacy and data protection requirements were assessed against UK GDPR guidance.
-
-![GDPR Compliance](images/gdpr-compliance.png)
+![Compliance Frameworks](images/nist-compliance.png)
 
 ---
 
@@ -255,41 +211,35 @@ Privacy and data protection requirements were assessed against UK GDPR guidance.
 
 ## Privacy-Focused Data Assets
 
-Three GDPR-sensitive data assets were created:
-
-- Patient Health Records Database
-- Patient Appointment Records
-- Employee Records Database
-
-![Data Assets](images/data-assets.png)
-
----
-
-## Processing Activities
-
-GDPR processing activities were documented.
-
-![Processing Activities](images/processing-activities.png)
-
----
-
-## Third Parties
-
-Third-party organizations involved in data processing were registered.
+Privacy-sensitive assets containing personal information were identified and managed within Eramba.
 
 Examples:
 
-- Payroll Service Provider
+- Patient Health Records
+- Appointment Records
+- Employee Records
+
+![Privacy Assets](images/data-assets.png)
+
+---
+
+## Third-Party Management
+
+External organizations involved in data processing were documented and assessed.
+
+Examples:
+
+- Payroll Provider
 - Cloud Backup Provider
-- SMS Notification Provider
+- SMS Notification Service
 
 ![Third Parties](images/third-parties.png)
 
 ---
 
-## Data Flows
+## Data Flow Mapping
 
-Personal data movement between systems and third parties was documented.
+Data flows were documented to track how personal information moves between systems and third parties.
 
 ![Data Flows](images/data-flows.png)
 
@@ -299,12 +249,12 @@ Personal data movement between systems and third parties was documented.
 
 ## Security Incidents
 
-Four security incidents were created and tracked.
+Security incidents were created and tracked through the incident management process.
 
 Examples:
 
 - Unauthorized Patient Record Access
-- Firewall Rule Misconfiguration
+- Firewall Misconfiguration
 - Payroll Approval Failure
 - CCTV Footage Loss
 
@@ -312,60 +262,37 @@ Examples:
 
 ---
 
-## Incident Lifecycle
-
-Each incident followed:
-
-```text
-Identification
-      │
-      ▼
-Containment
-      │
-      ▼
-Eradication
-      │
-      ▼
-Recovery
-      │
-      ▼
-Communication
-      │
-      ▼
-Lessons Learned
-```
-
-![Incident Lifecycle](images/incident-lifecycle.png)
-
----
-
 # Task 8 – Dashboard & Reporting
 
-## Asset-Based Risk Matrix
+## Risk Matrix and Compliance Dashboard
 
-Visual representation of organizational risks.
+The dashboard provides centralized visibility of:
 
-![Dashboard Risk Matrix](images/dashboard-risk-matrix.png)
+- Risk Exposure
+- Compliance Status
+- Treatment Progress
+- Organizational Security Posture
 
----
-
-## Compliance Status Dashboard
-
-Overview of compliance posture across frameworks.
-
-![Compliance Dashboard](images/compliance-dashboard.png)
+![Dashboard](images/dashboard-risk-matrix.png)
 
 ---
 
-# Key Findings
+# Key Results
 
-| Finding | Severity |
-|----------|----------|
-| Unauthorized Patient Record Access | Critical |
-| Missing ICO Breach Notification Procedure | High |
-| Firewall Misconfiguration | High |
-| Payroll Approval Workflow Failure | Medium |
-| CCTV Monitoring Control Failure | Medium |
+| Capability | Status |
+|------------|---------|
+| Business Units | ✅ |
+| Asset Management | ✅ |
+| Risk Register | ✅ |
+| Risk Treatment Plans | ✅ |
+| Policy Management | ✅ |
+| Internal Controls | ✅ |
+| NIST CSF 2.0 Compliance | ✅ |
+| UK GDPR Compliance | ✅ |
+| Privacy Management | ✅ |
+| Third-Party Management | ✅ |
+| Incident Management | ✅ |
+| Dashboard Reporting | ✅ |
 
 ---
 
@@ -387,26 +314,25 @@ Overview of compliance posture across frameworks.
 
 - NIST CSF 2.0 Mapping
 - UK GDPR Compliance
-- Regulatory Gap Analysis
+- Gap Analysis
 
 ## Privacy
 
-- GDPR Data Mapping
+- Data Flow Mapping
 - Processing Activities
-- Third-Party Management
-- Data Flow Analysis
+- Third-Party Risk Management
 
 ## Incident Management
 
 - Incident Lifecycle Management
-- Incident Documentation
 - Root Cause Analysis
+- Security Reporting
 
-## GRC Platform
+## GRC Platform Administration
 
-- Eramba Administration
+- Eramba Configuration
 - Dashboard Configuration
-- Reporting & Auditing
+- Compliance Tracking
 
 ---
 
@@ -417,37 +343,17 @@ it8515-eramba-grc-project
 │
 ├── README.md
 │
-├── images
-│   ├── grc-architecture.png
-│   ├── business-units.png
-│   ├── assets-list.png
-│   ├── risk-register.png
-│   ├── risk-matrix.png
-│   ├── risk-treatment-plan.png
-│   ├── policies.png
-│   ├── policy-versions.png
-│   ├── internal-controls.png
-│   ├── control-audits.png
-│   ├── maintenance-records.png
-│   ├── nist-compliance.png
-│   ├── gdpr-compliance.png
-│   ├── data-assets.png
-│   ├── processing-activities.png
-│   ├── third-parties.png
-│   ├── data-flows.png
-│   ├── incident-register.png
-│   ├── incident-lifecycle.png
-│   ├── dashboard-risk-matrix.png
-│   └── compliance-dashboard.png
+└── images
+    ├── business-units.png
+    ├── assets-list.png
+    ├── risk-register.png
+    ├── risk-treatment-plan.png
+    ├── policies.png
+    ├── internal-controls.png
+    ├── nist-compliance.png
+    ├── data-assets.png
+    ├── third-parties.png
+    ├── data-flows.png
+    ├── incident-register.png
+    └── dashboard-risk-matrix.png
 ```
-
----
-
-# Key Frameworks
-
-- NIST Cybersecurity Framework (CSF) 2.0
-- UK GDPR
-- ICO Data Protection Guidance
-- Enterprise Risk Management Principles
-
----
