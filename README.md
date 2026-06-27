@@ -451,18 +451,3 @@ it8515-eramba-grc-project
 - Enterprise Risk Management Principles
 
 ---
-
-# Author
-
-IT8515 – Cybersecurity Compliance and Regulations
-
-Real-Time GRC System Design & Implementation using Eramba
-
-- Eramba 3.27.3
-- NIST CSF 2.0
-- UK GDPR
-- Risk Management
-- Compliance Analysis
-- Data Privacy
-- Incident Management
-- Healthcare Security Governance
