@@ -136,7 +136,7 @@ Five organizational assets were identified and classified.
 
 # Task 2 – Risk Management
 
-## Risk Register
+## Risk Register and Treatment Plans
 
 Five cybersecurity risks were identified and linked to organizational assets.
 
@@ -148,15 +148,11 @@ Examples include:
 - CCTV Monitoring Failure
 - Ransomware Attack
 
+The identified high-priority risks were evaluated using the organization's risk methodology and assigned treatment plans to reduce their likelihood and impact. Treatment activities included implementing access controls, strengthening firewall management procedures, improving backup verification processes, and enhancing monitoring capabilities.
+
+### Risk Register
+
 ![Risk Register](images/risk-register.png)
-
----
-
-## Risk Treatment Plans
-
-Risk treatment plans were created for high-priority risks to reduce their likelihood and impact.
-
-![Risk Treatment Plan](images/risk-treatment-plan.png)
 
 ---
 
